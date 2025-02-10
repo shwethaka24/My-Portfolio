@@ -9333,6 +9333,12 @@ figcaption {
     transform: rotate(10deg);
     transition: 0.5s;
 }
+.inner img {
+    width: 150px;  /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
     .slide .thumbnail .inner {
       text-align: center; }
       .slide .thumbnail .inner img {
