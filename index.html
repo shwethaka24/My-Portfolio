@@ -20,6 +20,19 @@
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const image = document.querySelector(".inner img");
+
+        image.addEventListener("touchstart", function () {
+            image.classList.add("rotate");
+            setTimeout(() => {
+                image.classList.remove("rotate");
+            }, 500); // Reset after 0.5s
+        });
+    });
+</script>
+
 
 <body class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
 
