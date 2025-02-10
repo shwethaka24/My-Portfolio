@@ -9329,6 +9329,10 @@ figcaption {
       background: var(--background-color-1);
       box-shadow: var(--shadow-1);
       border-radius: 6px; }
+    .inner img:hover {
+    transform: rotate(10deg);
+    transition: 0.5s;
+}
     .slide .thumbnail .inner {
       text-align: center; }
       .slide .thumbnail .inner img {
