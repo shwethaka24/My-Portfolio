@@ -9333,7 +9333,12 @@ figcaption {
     transform: rotate(10deg);
     transition: 0.5s;
 }
-
+.custom-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
     .slide .thumbnail .inner {
       text-align: center; }
       .slide .thumbnail .inner img {
