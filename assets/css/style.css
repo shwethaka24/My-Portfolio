@@ -9333,7 +9333,7 @@ figcaption {
     transform: rotate(10deg);
     transition: 0.5s;
 }
-.custom-circle {
+.custom-size{
     width: 150px;
     height: 150px;
     border-radius: 50%;
