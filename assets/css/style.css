@@ -9334,8 +9334,8 @@ figcaption {
     transition: 0.5s;
 }
 .custom-size{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     object-fit: cover;
 }
